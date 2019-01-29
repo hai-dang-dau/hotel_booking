@@ -18,7 +18,8 @@ class Classifier(BaseEstimator):
         # Parameters
         param = {'boosting':'gbdt', 'num_leaves':31, 'objective':'binary',
             'learning_rate':.05, 'max_bin':255, 'min_data_in_leaf':100,
-            'bagging_freq':1, 'bagging_fraction':1., 'lambda_l1':1, 'lambda_l2':1}
+            'bagging_freq':1, 'bagging_fraction':1., 'lambda_l1':1, 'lambda_l2':1,
+            'verbose':-1}
         param['metric'] = 'binary_logloss'
         
         num_round = 600
