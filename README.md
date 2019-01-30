@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # (Our proposed) RAMP starting kit on Hotel Booking classification
 
 _Authors: DAU Hai-dang, TRAN Duc-dung, LE Ha-quang_
@@ -19,7 +20,7 @@ Open a terminal and
 
 #### Local notebook
 
-Get started on this RAMP with the [dedicated notebook](solar_wind_starting_kit.ipynb).
+Get started on this RAMP with the [notebook](hotel_booking_starting_kit.ipynb).
 
 To test the starting-kit, run
 
@@ -27,3 +28,15 @@ To test the starting-kit, run
 ```
 ramp_test_submission --quick-test
 ```
+=======
+# Hotel booking cancellation problem
+
+Fully functionnal RAMP Workflow as part of Data Camp M2 course at UParis-Saclay.
+
+Student names:
+* DAU Hai Dang
+* LE Ha Quang
+* TRAN Duc Dung
+
+See the associated IPython notebook for more information.
+>>>>>>> 3895404b220757bb6be3ffd39c0d5c001fc4f312
