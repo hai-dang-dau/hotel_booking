@@ -1,7 +1,15 @@
 numpy
 pandas
+<<<<<<< HEAD
 seaborn
 scikit-learn
 matplotlib
 jupyter
 lightgbm
+=======
+matplotlib
+seaborn
+scikit-learn
+lightgbm
+jupyter
+>>>>>>> 3895404b220757bb6be3ffd39c0d5c001fc4f312

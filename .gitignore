@@ -115,3 +115,6 @@ dmypy.json
 
 # data to be downloaded
 data/*
+
+# pycache
+submissions/starting_kit/__pycache__/*
