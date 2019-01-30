@@ -18,11 +18,11 @@ class Precision(ClassifierBaseScoreType):
     is_lower_the_better = False
     minimum = 0.0
     maximum = 1.0
-    
+
     def __init__(self, name='prec', precision=2):
         self.name = name
         self.precision = precision
-    
+
     def __call__(self, true, pred):
         return precision_score(true, pred)
 
@@ -30,11 +30,11 @@ class Recall(ClassifierBaseScoreType):
     is_lower_the_better = False
     minimum = 0.0
     maximum = 1.0
-    
+
     def __init__(self, name='rec', precision=2):
         self.name = name
         self.precision = precision
-    
+
     def __call__(self, true, pred):
         return recall_score(true, pred)
 
@@ -42,11 +42,11 @@ class ModifiedF1(ClassifierBaseScoreType):
     is_lower_the_better = False
     minimum = 0.0
     maximum = 1.0
-    
+
     def __init__(self, name='mf1', precision=2):
         self.name = name
         self.precision = precision
-    
+
     def __call__(self, true, pred, w = 3):
         inv_prec = 1/precision_score(true, pred) # numpy automatically handles correctly any division by zero
         inv_rec = 1/recall_score(true, pred)
