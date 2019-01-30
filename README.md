@@ -1,10 +1,10 @@
 # (Our proposed) RAMP starting kit on Hotel Booking classification
 
-_Students: DAU Hai-dang, TRAN Duc-dung, LE Ha-quang_
+_Students: DAU Hai Dang, LE Ha Quang, TRAN Duc Dung_
 
-In the hospitality industry, which includes lodging, event planning, transportation, travelling or cuisine line, booking helps to provide the right product to right customer at the right time. Despite its benefits, booking cancellation option puts the services at risk. In the case of hotels, vacant capacity may happen when a guest cancel a booking or doesn't show up. While cancellations can occur due to reasonable causes like bad weather, working schedule changes, illness, etc, nowadays a great number of them happens because people search for best deals. Although, hotels can use overbooking or cancellation policy, overbooking gives a bad expericence by not allowing a customer to check in, while cancellation policy can reduce the number of bookings and reduce the income.
+In the hospitality industry, which includes lodging, event planning, transportation, travelling or cuisine line, booking helps to provide the right product to right customer at the right time. Despite its benefits, booking cancellation option puts the services at risk. In the case of hotels, vacant capacity may happen when a guest cancel a booking or doesn't show up. While cancellations can occur due to reasonable causes like bad weather, working schedule changes, illness, etc, nowadays a great number of them happens because people search for best deals. Although, hotels can use overbooking or cancellation policy, overbooking gives a bad experience by not allowing a customer to check in, while cancellation policy can reduce the number of bookings and reduce the income.
 
-To overcome this problem, we propose using machine learning to predict the probility of cancellation for each reservation. This prediction helps the management decision, improve the experience of customers and the hotel's revenue. The model can be retrained regularly as the data accumulates.
+To overcome this problem, we propose using machine learning to predict the probability of cancellation for each reservation. This prediction helps the management decision, improve the experience of customers and the hotel's revenue. The model can be retrained regularly as the data accumulates.
 
 #### Set up
 
